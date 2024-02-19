@@ -1,0 +1,26 @@
+INICIO
+
+1. Configurar el entorno de desarrollo de la Skill de Alexa.
+2. Definir los permisos necesarios para acceder al micrófono.
+3. Establecer un modelo de aprendizaje automático para detectar el llanto de un infante.
+
+FUNCION alEscucharLlanto():
+    1. Activar el micrófono y comenzar a escuchar.
+    2. Cuando se detecte un llanto, detener la grabación y procesar el audio.
+    3. Pasar el audio por el modelo de aprendizaje automático para determinar si es llanto de un infante.
+    4. Si se detecta el llanto de un infante:
+        4.1. Analizar el contexto del llanto (hora del día, duración, etc.).
+        4.2. Basado en el contexto y patrones de llanto, proporcionar una razón probable del llanto.
+        4.3. Utilizar la voz de Alexa para comunicar la razón al usuario.
+    5. Repetir el proceso.
+
+FUNCION main():
+    1. Registrar la Skill en la plataforma de desarrolladores de Alexa.
+    2. Configurar los eventos de activación para comenzar a escuchar el llanto.
+    3. Configurar el manejo de permisos y solicitudes de audio.
+    4. Llamar a la función alEscucharLlanto() cuando se detecte llanto.
+    5. Implementar la lógica de comunicación con el usuario.
+    6. Probar la Skill en diferentes escenarios para asegurar su funcionamiento adecuado.
+    7. Publicar la Skill en la tienda de habilidades de Alexa.
+
+FIN
